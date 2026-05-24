@@ -13,9 +13,14 @@ a {
     color: inherit;
 }
 
+button {
+    border: none;
+}
+
 body {
     font-family: DM Sans, sans-serif;
     font-style: normal;
+    font-weight: 400;
     color: #fff;
     background-color: #191919;
 
@@ -23,7 +28,7 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 1280px; /*1140px + p70 + p70*/
+    max-width: 1440px;
     padding: 0 70px;
 }
 
@@ -40,8 +45,7 @@ body {
     justify-content: flex-end;
     gap: 40px;
     font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.6; /* 158.824% */
+    line-height: 1.6;
 }
 
 /*===================ПРАВАЯ СТОРОНА СЕКЦИИ=============================*/
@@ -57,14 +61,13 @@ body {
 }
 
 .main_img {
-    max-width: 650px;
-    width: 100%;
-    border-radius: 2%;
+    max-width: 100%;
+    max-height: 873px;
+    border-radius: 12px;
 }
 
 .title {
     font-size: 4.3rem;
-    font-weight: 400;
     line-height: 1.26;
     letter-spacing: 0.05em;
     max-width: 526px;
@@ -80,7 +83,6 @@ body {
 
 .subtitle {
     font-size: 0.9rem;
-    font-weight: 400;
     line-height: 1.6;
 }
 
@@ -91,3 +93,101 @@ body {
     margin-top: 16px;
     margin-bottom: 130px;
 }
+
+/*===================СЕКЦИЯ 2=============================*/
+.card {
+    margin-bottom: 60px;
+}
+
+.preview_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 92px 0 66px;
+}
+.second_section_title {
+    font-size: 4rem;
+    line-height: 1.23;
+    font-weight: 400;
+    letter-spacing: 0.045em;
+}
+
+.btn_style {
+    height: 51px;
+    border-radius: 6px;
+    background: #118DA8;
+
+    color: #FFF;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.btn_title {
+    width: 178px;
+    height: 51px;
+}
+
+.card_wrapper {
+    border-radius: 32px;
+    background: #000;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    gap: 53px;
+    padding: 40px;
+}
+
+.card_img {
+    max-width: 100%;
+    max-height: 465px;
+}
+
+.second_section_label {
+    display: inline-block;
+    text-align: center;
+    min-width: 73px;
+    height: 27px;
+    border-radius: 6px;
+    background: #191919;
+
+    font-size: 1.1rem;
+    line-height: 1.5;
+    padding: 0 16px;
+    margin-bottom: 48px;
+}
+
+.episode_title {
+    color: #118DA8;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: 400;
+
+    margin-bottom: 18px;
+}
+
+.second_section_subtitle {
+    font-size: 4rem;
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+
+.second_section_description {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 1.3rem;
+    line-height: 1.5;
+
+    display: inline-block;
+    max-width: 757px;
+}
+
+.btn_description {
+    width: 208px;
+    height: 51px;
+    margin-top: 18px;
+
+}
+
