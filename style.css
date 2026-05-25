@@ -24,6 +24,7 @@ body {
     color: #fff;
     background-color: #191919;
 
+
 }
 
 .container {
@@ -60,7 +61,7 @@ body {
     gap: 60px;
 }
 
-.main_img {
+.img {
     max-width: 100%;
     max-height: 873px;
     border-radius: 12px;
@@ -113,7 +114,6 @@ body {
 }
 
 .btn_style {
-    height: 51px;
     border-radius: 6px;
     background: #118DA8;
 
@@ -127,59 +127,63 @@ body {
     height: 51px;
 }
 
+.article_wrapper {
+    margin-bottom: 160px;
+}
+
 .card_wrapper {
+    width: 100%;
+    min-height: 512px;
     border-radius: 32px;
     background: #000;
 
     display: flex;
     align-items: center;
-
     justify-content: space-between;
     gap: 53px;
     padding: 40px;
 }
 
 .card_img {
-    max-width: 100%;
-    max-height: 465px;
+    max-width: 389px;
+    width: 100%;
+    min-height: 432px;
 }
 
 .second_section_label {
-    display: inline-block;
-    text-align: center;
-    min-width: 73px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
     height: 27px;
     border-radius: 6px;
     background: #191919;
-
     font-size: 1.1rem;
     line-height: 1.5;
     padding: 0 16px;
     margin-bottom: 48px;
 }
 
-.episode_title {
+.badge {
     color: #118DA8;
     font-size: 1.1rem;
     line-height: 1.5;
     font-weight: 400;
-
     margin-bottom: 18px;
 }
 
 .second_section_subtitle {
     font-size: 4rem;
-    line-height: 1.1;
+    line-height: 1.2;
     letter-spacing: 0.04em;
     font-weight: 400;
     margin-bottom: 28px;
 }
 
-.second_section_description {
+.description {
     color: rgba(255, 255, 255, 0.70);
     font-size: 1.3rem;
-    line-height: 1.5;
-
+    line-height: 1.4;
     display: inline-block;
     max-width: 757px;
 }
@@ -188,6 +192,48 @@ body {
     width: 208px;
     height: 51px;
     margin-top: 18px;
+}
+
+/*===================СЕКЦИЯ 3=============================*/
+.introduce_wrapper {
+    display: flex;
+    gap: 60px;
+    padding: 100px 0;
+}
+
+.description_wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
+.arrow_link {
+    display: inline-block;
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    background-color: #118DA8;
+    background-image: url("./assets/images/arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+
+    margin-bottom: 20px;
+}
+
+.introduce_badge {
+    font-size: 18px;
+}
+
+.introduce_title {
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 2.88px;
+    margin-bottom: 28px;
+}
+
+.introduce_text {
+    margin-bottom: 33px;
+}
