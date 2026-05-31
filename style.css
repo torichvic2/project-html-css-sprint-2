@@ -131,12 +131,14 @@ body {
     margin-bottom: 160px;
 }
 
-.card_wrapper {
+.card_bg_wrapper {
     width: 100%;
     min-height: 512px;
     border-radius: 32px;
     background: #000;
+}
 
+.card_wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -236,4 +238,52 @@ body {
 
 .introduce_text {
     margin-bottom: 33px;
+}
+
+/*======================СЕКЦИЯ SUBSCRIBE============================*/
+
+.subscribe_title {
+    font-size: 72px;
+}
+
+.info_wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.subscribe_wrapper {
+    padding: 85px 60px 0;
+}
+
+.user-info_wrapper {
+    padding: 60px 70px 76px 60px;
+}
+
+.form_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.input {
+    width: 522px;
+    height: 82px;
+    border-radius: 6px;
+    border: 1px solid #191919;
+    background: #191919;
+}
+
+input::placeholder {
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.btn_subscribe {
+    width: 87px;
+    height: 48px;
 }
